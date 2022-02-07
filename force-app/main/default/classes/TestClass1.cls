@@ -1,6 +1,7 @@
 public with sharing class TestClass1 {
     public TestClass1() {
 
-        Accont ac1 = new Account();
+        Account ac1 = new Account();
+        Account ac2 = new Account( FirstName = 'TestName1', Lastname = 'testLastname1' );
     }
 }
